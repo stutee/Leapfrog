@@ -11,15 +11,15 @@
     <div class="container">
         <header>
             <nav>
-                <ul class="navigation font">
-                    <li class="navi-item"><a href="/index.html" class="link color-text-black"><strong>UI Kit</strong></a> </li>
+                <ul class="navigation">
+                    <li class="navi-item"><a href="./index.html" class="link color-text-black"><strong>UI Kit</strong></a> </li>
                     <li class="navi-item"><a href="./color.html" class="link">Color</a></li>
                     <li class="navi-item" ><a href="./typography.html" class="link">Typography</a></li>
                     <li class="navi-item"><a href="./buttons.html" class="link">Buttons</a></li>
                     <li class="navi-item"><a href="./form.html" class="link">Forms</a></li>
                     <li class="navi-item"><a href="./listgroup.html" class="link"> List Group</a></li>
                     <li class="navi-item"><a href="./table.html" class="link">Table</a></li>
-                    <li class="navi-item"><a href="#Card" class="link">Card</a></li>
+                    <li class="navi-item"><a href="./card.html" class="link">Card</a></li>
                     <li class="navi-item">
                         <form class="searchbutton">
                          <input type="text" placeholder="Search">   <button type="submit">Search</button>
@@ -28,15 +28,14 @@
                 </ul>
             </nav>
         </header>
-    <div class="clearfix" style="clear:both">
-        <h1 class="font"><strong>Forms</strong></h1>
+    <div class="clearfix clear-both">
+        <h1><strong>Forms</strong></h1>
         <hr class="horizontal-line-color">
-          
     </div>
 
-    <div class="float-left width-500">
-        <h2 class="font">Components</h2>
-        <ul class="components font">
+    <div class="float-left margin-right-50">
+        <h2>Components</h2>
+        <ul class="components">
             <li class="components-item">Color</li>
             <li class="components-item">Typography</li>
             <li class="components-item">Buttons</li>
@@ -47,60 +46,83 @@
         </ul>
     </div>
 
-    <div class="font">
-        <form class="float-left font">
-            <h2><label for="placeholder">Input</label></h2>
-                <input type="text" placeholder="Placeholder" name="placeholder" class="input-text"><br>
-            <h2>Select Menu</h2>
-            <select name="Select Menu" id="Select Menu">
+    <div>
+        <form class="float-left">
+            <div class="forms-item">
+                <h2><label for="placeholder">Input</label></h2>
+                <input type="text" placeholder="Placeholder" name="placeholder" class="input-text">
+            </div>
+            
+            <div class="forms-item">
+                <h2>Select Menu</h2>
+                <select name="Select Menu" id="Select Menu">
                 <option value="Select Menu">Select Menu</option>
             </select>
-            <h2>Textarea</h2>
-            <textarea name="comment" rows="4" cols="40" placeholder="Enter your message here"></textarea>
+            </div>
 
-            <h2>Checkboxes</h2>
-            <p>Checkboxes  Checkboxes Inline</p>
-            <input type="checkbox" id ="Default value1">
-            <label for="Default value1"> Default checkbox</label>
-            <input type="checkbox" id ="Default value2">
-            <label for="Default value2"> Default checkbox</label>
-            <input type="checkbox" id ="Default value3" checked="checked">
-            <label for="Default value3"> Default checkbox</label>
-            <span class="checkmark"></span>
-            <input type="checkbox"id ="Default value4">
-            <label for="Default value4"> Default (disabled)</label><br>
-            <input type="checkbox" id ="Default value5" checked="checked">
-            <label for="Default value5"> Default checkbox</label><br>
-            <input type="checkbox" id ="Default value6">
-            <label for="Default value6"> Default (disabled)</label>
-
-            <h2>Radios</h2>
-            <p>Radios Radios Inline</p>
-            <input type="radio" id="Default radio1">
-            <label for="Default radio1">Default Radio</label>
-            <input type="radio" id="Default radio2">
-            <label for="Default radio2">Default Radio</label>
-            <input type="radio" id="Selected radio" checked="checked">
-            <label for="Selected radio">Selected Radio</label>
-            <input type="radio" id="Disabled radio" >
-            <label for="Disabled radio">Disabled Radio</label><br>
-            <input type="radio" id="Selected radio" checked="checked">
-            <label for="Selected radio">Selected Radio</label><br>
-            <input type="radio" id="Disabled radio" disabled="">
-            <label for="Disabled radio1">Disabled Radio</label>
-
-            <h2>Validation</h2>
-                <label for="success">Input Success</label><br>
-                <input type="text" name="success" class="input-text-greenborder"><br>
-                <label for="error">Input Error</label><br>
-                <input type="text" name="error" class="input-text-redborder">
-
-
+            <div class="forms-item">
+                <h2>Textarea</h2>
+                <textarea name="comment" rows="4" cols="40" placeholder="Enter your message here"></textarea>
+            </div>
             
+            <div class="clearfix forms-item">
+                <h2>Checkboxes</h2>
+                <div class="float-left margin-right-20 margin-top-neg-20">
+                    <p>Checkboxes </p>
+                    <input type="checkbox" id ="Default-value1">
+                    <label for="Default-value1" class="margin-bottom-5"> Default checkbox</label><br>
+                    <input type="checkbox" id ="Default-value5" checked="checked">
+                    <label for="Default-value5" class="margin-bottom-5"> Default checkbox</label><br>
+                    <input type="checkbox" id ="Default-value6" disabled>
+                    <label for="Default-value6"> Default (disabled)</label>
+                </div>
+                
+                <div class="float-right margin-top-neg-20">
+                    <p> Checkboxes Inline</p>
+                    <input type="checkbox" id ="Default value2">
+                    <label for="Default-value2" class="margin-right-10"> Default checkbox</label>
+                    <input type="checkbox" id ="Default value3" checked="checked">
+                    <label for="Default-value3" class="margin-right-10"> Default checkbox</label>
+                    <span class="checkmark"></span>
+                    <input type="checkbox"id ="Default-value4" disabled>
+                    <label for="Default-value4"> Default (disabled)</label>
+                </div>
+                
+                
+            </div>
+            
+            <div class="clearfix clear-both forms-item">
+                <h2>Radios</h2>
+                <div class="float-left margin-right-20 margin-top-neg-20">
+                    <p>Radios</p>
+                    <input type="radio" id="Default radio1">
+                    <label for="Default radio1">Default Radio</label><br>
+                    <input type="radio" id="Selected radio" checked="checked">
+                    <label for="Selected radio">Selected Radio</label><br>
+                    <input type="radio" id="Disabled radio" disabled>
+                    <label for="Disabled radio1">Disabled Radio</label>
+                </div>
+                
+                <div class="float-right margin-top-neg-20">
+                    <p>Radios Inline</p>
+                    <input type="radio" id="Default radio2">
+                    <label for="Default radio2">Default Radio</label>
+                    <input type="radio" id="Selected radio" checked="checked">
+                    <label for="Selected radio">Selected Radio</label>
+                    <input type="radio" id="Disabled radio" disabled >
+                    <label for="Disabled radio">Disabled Radio</label>
+                </div>
+            </div>
 
-
-
-
+            <div class="forms-item clear-both">
+                <h2>Validation</h2>
+                <label for="success" class="margin-bottom-5">Input Success</label><br>
+                <input type="text" name="success" class="input-text-greenborder margin-bottom-20"><br>
+                <label for="error" class="margin-bottom-5">Input Error</label><br>
+                <input type="text" name="error" class="input-text-redborder">
+            </div>
         </form>
     </div>
-
+</div>
+</body>
+</html>
