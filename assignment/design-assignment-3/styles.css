@@ -1,3 +1,7 @@
+.header{
+    width:1440px;
+    margin:0px auto;
+}
 .navigation {
     list-style-type: none;
     margin: 0;
@@ -61,8 +65,6 @@
     color: #797979;
     font-weight: 600;
     font-size: 16px;
-    
-    
 }
 
 .navi-services{
@@ -87,9 +89,6 @@
 
 .contact-box {
     padding: 16px 30px;
-    /* gap: 10px; */
-    /* width: 60x;
-    height: 32px; */
     margin-right:40px;
     margin-top:32px;
     background: #4E42D9;
@@ -102,9 +101,8 @@
 
 .second-section{
     padding-top:100px;
-    padding-left:120px;
-    padding-right:120px;
     height: 584px; 
+    margin-bottom:72px;
 }
 
 .second-section-left-top{
@@ -177,8 +175,6 @@
 .web-app{
     width: 285px;
     text-align: center;
-    padding-left:120px;
-    
 }
 
 .center{
@@ -240,13 +236,20 @@
     color:#797979;
     margin-bottom: 40px;
     width:560px;
-    
 }
 
 .fourth-section{
     background-color: #F8F8F8;
+    margin:0px auto;
     margin-top:72px;
     padding:72px 120px 74px 120px;
+    width:1440px;
+}
+
+.blog-container{
+    margin-left:120px;
+    margin-right:120px;
+    margin-bottom:72px;
 }
 
 .date-text{
@@ -286,5 +289,72 @@
     color:white;
     font-weight: 700;
     font-size: 16px;
-    
+    margin-top:71px;
 }
+
+.fifth-section{
+    margin:0px auto;
+    background-color: #292838;;
+    font-weight: 700;
+    font-size: 30px;
+    width:1440px;
+    padding:72px 120px;
+}
+
+.fifth-title{
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.fifth-left{
+    width:398px;
+}
+
+.fifth-content{
+    font-weight: 400;
+    font-size: 16px;
+    width:398;
+}
+
+.font-text-18{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.font-text-16{
+    font-size:16px;
+    font-weight:400;
+}
+
+.margin-footer-89:not(:last-child){
+    margin-right:89px;
+}
+
+.footer-left-container{
+    margin-left:214px;
+}
+
+.margin-bottom-12{
+    margin-bottom:12px;
+}
+
+.margin-bottom-24{
+    margin-bottom:24px;
+}
+
+.margin-bottom-16{
+    margin-bottom:16px;
+}
+
+.copy-right{
+    margin:0px auto;
+    background-color: #23222F;
+    padding-top:19px;
+    padding-bottom:17px;
+    text-align: center;
+    color:white;
+    font-size:14px;
+    font-weight:500;
+}
+

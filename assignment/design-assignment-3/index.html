@@ -7,38 +7,30 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./layout.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">  -->
-  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
     <title>Home Page</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <ul class="navigation">
-                    <li class="logo"><span class="color-text-purpletype">Awww</span><span>some</span><span class="color-text-purpletype">.</span></li>
-                    <ul class="float-right">
-                        <li class="navi-item" ><a href="#" class="link navi-home">Home</a></li>
-                        <li class="navi-item " ><a href="#" class="link navi-aboutus">About Us</a></li> 
-                        <li class="navi-item" ><a href="#" class="link navi-services">Services</a></li>
-                        <li class="navi-item" ><a href="#" class="link navi-news">News</a></li>
-                        <li class="navi-item contact-box"><a href="#" class="link color-text-white">Contact</a></li>
-                        
-                     </ul>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        <main>
+    <header class="header">
+        <nav>
+            <ul class="navigation">
+                <li class="logo"><span class="color-text-purpletype">Awww</span><span>some</span><span class="color-text-purpletype">.</span></li>
+                <ul class="float-right">
+                    <li class="navi-item" ><a href="#" class="link navi-home">Home</a></li>
+                    <li class="navi-item " ><a href="#" class="link navi-aboutus">About Us</a></li> 
+                    <li class="navi-item" ><a href="#" class="link navi-services">Services</a></li>
+                    <li class="navi-item" ><a href="#" class="link navi-news">News</a></li>
+                    <li class="navi-item contact-box"><a href="#" class="link color-text-white">Contact</a></li>
+                    
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+            <div class="container">
             <div class="second-section">
                 <div class="second-section-left float-left">
                     <div class="second-section-left-top">
@@ -62,7 +54,7 @@
                
 
                 <div class="second-section-right float-right">
-                    <div class="second-section-format"><img src="hero image.png" alt="hero"></div>
+                    <div><img src="hero image.png" alt="hero"></div>
                     
                 </div>
             </div>
@@ -70,7 +62,7 @@
 
             <div class="clear-both clear-fix third-section">
              <h4 class="third-section-first">What we do</h4> 
-                <div class="float-left">
+                <div>
                     <div class="web-app float-left">
                         <div class="services-image"><img src="icon-web-app.png" alt="web" class="center"></div>
                         <p class="what-do-heading">Web Application</p><p class="what-do-content">Platform independent business solutions for maximum availability</p>
@@ -93,21 +85,23 @@
                     </div>
                 </div>
             </div>
+        </div> 
 
             <div class="clear-both clear-fix fourth-section">
                 <h4 class="fourth-section-first">Blog</h4> 
                 <p class="third-text">Insights, thoughts, industry trends, marketing news, eDesign News, Nerdy stuffs, it's all here</p>
-                <div class="blog-1 float-left">
-                    <div class="blog-img"><img src="blog_1.jpg" alt="jersey"></div>
-                    <p class="date-text">Nov 10,2021</p>
-                    <p class="blog-topic">LaserNetUs Website Launch</p>
-                    <p class="blog-content">LaserNetUs has a new brand identity and
+                <div class="blog-container clearfix">
+                    <div class="blog-1 float-left">
+                        <div class="blog-img"><img src="blog_1.jpg" alt="jersey"></div>
+                        <p class="date-text">Nov 10,2021</p>
+                        <p class="blog-topic">LaserNetUs Website Launch</p>
+                        <p class="blog-content">LaserNetUs has a new brand identity and
                         website designed by eDesign Interactive. The
                         homepage is dynamic and eye-catching. The
                         website aims to highlight the innovative nature
                         of high-intensity laser technology</p>
                 </div>
-
+                
                 <div class="blog-1 float-left">
                     <div class="blog-img"><img src="blog_2.png" alt="jersey"></div>
                     <p class="blog-topic">How we helped an Orthopedic Practice Increase their traffic</p>
@@ -121,19 +115,59 @@
                     <p class="blog-content">Is your website accessible to visitors
                         with impairments?</p>
                 </div>
-                </div>
+            </div>
                 <div class="clear-both clear-fix view">
                     View All
                 </div>
-                
-
-                
             </div>
-            
-            
-        
+                
+        </div>
 
-        </main>        
+            <div class="clear-both clear-fix fifth-section color-text-white">
+                <div class="fifth-left float-left color-text-white">
+                    <h4 class="fifth-title margin-bottom-12">Awwwsome</h4>
+                    <div class="fifth-content">
+                        <p>Our team can create amazing web experiences,
+                            beginning with deep market research, practical
+                            strategies, and professional execution.</p>
+                    </div>
+                </div>
 
-</body>
+                <div class="float-left footer-left-container">
+                <div class="float-left margin-footer-89"> 
+                    <p class="font-text-18 margin-footer-89 margin-bottom-24">ABOUT US</p>
+                    <div class="font-text-16">
+                    <p class="margin-bottom-16">Works</p>
+                    <p class="margin-bottom-16">Strategy</p>
+                    <p class="margin-bottom-16">Releases</p>
+                    <p class="margin-bottom-16">Press</p>
+                    <p class="margin-bottom-16">Mission</p></div>
+                </div>
+                </div>
+
+                <div class="float-left margin-footer-89"> 
+                    <p class="font-text-18 margin-bottom-24">Customers</p>
+                    <div class="font-text-16">
+                    <p class="margin-bottom-16">Trending</p>
+                    <p class="margin-bottom-16">Popular</p>
+                    <p class="margin-bottom-16">Customers</p>
+                    <p class="margin-bottom-16">Features</p>
+                    <p class="margin-bottom-16">Mission</p></div>
+                </div>
+
+                <div class="float-left margin-footer-89"> 
+                    <p class="font-text-18 margin-bottom-24">Support</p>
+                    <div class="font-text-16">
+                    <p class="margin-bottom-16">Developer</p>
+                    <p class="margin-bottom-16">Support</p>
+                    <p class="margin-bottom-16">Customer Service</p>
+                    <p class="margin-bottom-16">Guide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right clear-both clear-fix">
+                <span>2022 ©.Awwwsome Designers </span>
+            </div>
+        </main>
+    </body>
 </html>
