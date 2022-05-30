@@ -456,10 +456,10 @@ textarea{
 }
 
 .firstcard{
-    border:1px solid #ABB5BE; 
+    border:1px solid #e8ebee; 
     width:300px;
     height:400px;
-    border-radius: 4px;
+    border-radius: 6px;
     
 }
 
@@ -471,11 +471,11 @@ textarea{
 }
 
 .secondcard{
-    border:1px solid #ABB5BE; 
+    border:1px solid #e8ebee; 
     position:relative;
     width:300px;
     height:350px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .play-button{
@@ -496,10 +496,10 @@ textarea{
 }
 
  .thirdcard{
-    border:1px solid #ABB5BE; 
+    border:1px solid #e8ebee; 
     width:300px;
     height:380px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 /* .forms-item{
