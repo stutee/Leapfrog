@@ -273,7 +273,7 @@
 }
 
 .blog-1{
-    width:350px;
+    width:386px;
 }
 
 .blog-1:not(:last-child){
@@ -309,6 +309,7 @@
 
 .fifth-left{
     width:398px;
+    margin-left:120px;
 }
 
 .fifth-content{
@@ -356,5 +357,8 @@
     color:white;
     font-size:14px;
     font-weight:500;
+    width:1440px;
+    padding-left:120px;
+    padding-right:120px;
 }
 
