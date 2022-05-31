@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+ul{
+	list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    font-style: normal;
+    min-height: 1200px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.clear-fix::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+
+
