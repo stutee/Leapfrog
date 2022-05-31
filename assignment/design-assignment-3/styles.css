@@ -314,8 +314,8 @@
 
 .fifth-content{
     font-weight: 400;
-    font-size: 16px;
-    width:398;
+    font-size: 10px;
+    width:50px;
 }
 
 .font-text-18{
@@ -333,19 +333,19 @@
 }
 
 .footer-left-container{
-    margin-left:214px;
+    margin-left:0px;
 }
 
 .margin-bottom-12{
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
 .margin-bottom-24{
-    margin-bottom:24px;
+    margin-bottom:10px;
 }
 
 .margin-bottom-16{
-    margin-bottom:16px;
+    margin-bottom:8px;
 }
 
 .copy-right{
