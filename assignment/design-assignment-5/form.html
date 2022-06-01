@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 5</title>
+</head>
+
+<header>
+    <nav>
+        <div class="nav-left">
+            <div class="logo">UI Kit</div>
+            <div class="links-container">
+                <ul class="nav-item">
+                    <li><a href="./index.html">Color </a></li>
+                    <li><a href="./tab.html">Typography</a></li>
+                    <li><a href="./buttons.html">Buttons</a></li>
+                    <li><a href="./form.html">Forms</a></li>
+                    <li><a href="./listgroup.html">List Group</a></li>
+                    <li><a href="./table.html">Table</a></li>
+                    <li><a href="./card.html">Card</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <input type="text" placeholder="Search" name="search" class="search-input">
+                        <button type="submit" class="button-search">Search</button>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="color-section">
+            <h1>Form</h1>
+            <hr class="horizontal-line">
+        </div>
+
+        <div class="forms-components-container">
+            <h2>Components</h2>
+            <ul class="components">
+                <li class="components-item">Color</li>
+                <li class="components-item">Typography</li>
+                <li class="components-item">Buttons</li>
+                <li class="components-item primary color-text-white">Forms</li>
+                <li class="components-item">List Group</li>
+                <li class="components-item">Table</li>
+                <li class="components-item">Card</li>
+            </ul>
+        </div>
+    
+        <div class="right-form-container">
+             <div class="forms-item">
+                    <h2><label for="placeholder">Input</label></h2>
+                    <input type="text" placeholder="Placeholder" name="placeholder" class="input-text">
+                </div>
+                
+                <div class="forms-item">
+                    <h2>Select Menu</h2>
+                    <select name="Select Menu" class="select-menu" id="Select Menu">
+                    <option value="Select Menu">Select Menu</option>
+                </select>
+                </div>
+    
+                <div class="forms-item">
+                    <h2 class="textarea">Textarea</h2>
+                    <textarea name="comment" rows="4" cols="40" placeholder="Enter your message here"></textarea>
+                </div>
+                
+                <div class="clearfix forms-item">
+                    <h2 class="checkbox-spacing">Checkboxes</h2>
+                    <div class="left-checkbox">
+                        <p>Checkboxes </p>
+                        <input type="checkbox" id ="Default-value1">
+                        <label for="Default-value1" class="margin-bottom-5"> Default checkbox</label><br>
+                        <input type="checkbox" id ="Default-value5" checked="checked">
+                        <label for="Default-value5" class="margin-bottom-5"> Default checkbox</label><br>
+                        <input type="checkbox" id ="Default-value6" disabled>
+                        <label for="Default-value6"> Default (disabled)</label>
+                    </div>
+                    
+                    <div class="right-checkbox">
+                        <p> Checkboxes Inline</p>
+                        <input type="checkbox" id ="Default value2">
+                        <label for="Default-value2" class="margin-right-10"> Default checkbox</label>
+                        <input type="checkbox" id ="Default value3" checked="checked">
+                        <label for="Default-value3" class="margin-right-10"> Default checkbox</label>
+                        <span class="checkmark"></span>
+                        <input type="checkbox"id ="Default-value4" disabled>
+                        <label for="Default-value4"> Default (disabled)</label>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="clearfix clear-both forms-item">
+                    <h2 class="checkbox-spacing">Radios</h2>
+                    <div class="radio-left">
+                        <p>Radios</p>
+                        <input type="radio" id="Default radio1">
+                        <label for="Default radio1">Default Radio</label><br>
+                        <input type="radio" id="Selected radio" checked="checked">
+                        <label for="Selected radio">Selected Radio</label><br>
+                        <input type="radio" id="Disabled radio" disabled>
+                        <label for="Disabled radio1">Disabled Radio</label>
+                    </div>
+                    
+                    <div class="radio-right">
+                        <p>Radios Inline</p>
+                        <input type="radio" id="Default radio2">
+                        <label for="Default radio2">Default Radio</label>
+                        <input type="radio" id="Selected radio" checked="checked">
+                        <label for="Selected radio">Selected Radio</label>
+                        <input type="radio" id="Disabled radio" disabled >
+                        <label for="Disabled radio">Disabled Radio</label>
+                    </div>
+                </div>
+    
+                <div class="forms-item clear-both">
+                    <h2 class="validation-spacing">Validation</h2>
+                    <label for="success" class="margin-bottom-5">Input Success</label><br>
+                    <input type="text" name="success" class="input-text-greenborder margin-bottom-20"><br>
+                    <label for="error" class="margin-bottom-5">Input Error</label><br>
+                    <input type="text" name="error" class="input-text-redborder">
+                </div>
+            </div>
+    </div>
+    </body>
+    </html>
+    
