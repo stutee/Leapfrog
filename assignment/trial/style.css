@@ -1,0 +1,158 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.header{
+    width:1440px;
+    margin:0px auto;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    overflow: hidden;
+    width:100%;
+}
+
+.navi-item {
+    display: block;
+    float: left;
+    padding-top:45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navi-item:not(:last-child){
+    padding-right:48px;
+}
+
+.link{
+    text-decoration: none; 
+}
+
+.navi-home{
+    color: #4E42D9;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.navi-aboutus{
+    color: #797979;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navi-services{
+    color: #797979;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navi-news{
+    color: #797979;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.color-text-greytype{
+    color: #797979;
+}
+
+
+.clear-both{
+    clear:both;
+}
+
+.logo{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    float: left;
+    padding-left:40px;
+    padding-top:32px;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        width:576px;
+        margin:0px auto;
+    }
+    .navigation {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        overflow: hidden;
+        /* width:100%; */
+        float:none;
+    }
+    
+    
+    .navi-item {
+        float: none;
+        padding-top:20px;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left:40px;
+    }
+
+    .logo{
+        font-size: 30px;
+        font-weight: 600;
+        float: none;
+        padding-left:40px;
+        padding-top:32px;
+    }
+
+    .float-right{
+        float:none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .header{
+        max-width:912px;
+        margin:0px auto;
+        
+    }
+    .navigation {
+        max-width:1200;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        overflow: hidden;
+        width:100%;
+        
+    }
+    
+    
+    .navi-item {
+        display: inline;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left:2px;
+        padding-right:20px;
+    }
+
+    .logo{
+        font-size: 30px;
+        font-weight: 600;
+        padding-left:40px;
+        padding-top:32px;
+    }
+
+}
