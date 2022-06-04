@@ -1002,8 +1002,10 @@ img{
 .header-bottom{
     margin-bottom:0px;
     margin:0 auto;
-    width:30%;
-    margin-top:-200px;
+    /* width:30%;
+    margin-top:-200px; */
+    width: 60%;
+    margin-top: -160px;
 }
 
 .head__leftbtn{
@@ -1024,6 +1026,10 @@ img{
 }
 
 /*features*/
+
+.features{
+    padding-top:300px;
+}
 
 .features__item{
     float:none;
