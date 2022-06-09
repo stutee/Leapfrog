@@ -4,6 +4,8 @@ ballBox.style.width = "800px";
 ballBox.style.height = "800px";
 ballBox.style.border = "2px solid grey";
 ballBox.style.position = "relative";
+ballBox.style.margin = "0 auto";
+ballBox.style.marginTop = "100px";
 document.body.appendChild(ballBox);
 
 //Creating the ball

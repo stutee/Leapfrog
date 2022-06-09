@@ -2,6 +2,8 @@ const scatterBox = document.createElement("div");
 scatterBox.style.width = "800px";
 scatterBox.style.height = "800px";
 scatterBox.style.border = "2px solid grey";
+scatterBox.style.margin = "0 auto";
+scatterBox.style.marginTop = "100px";
 scatterBox.style.position = "relative";
 document.body.appendChild(scatterBox);
 
