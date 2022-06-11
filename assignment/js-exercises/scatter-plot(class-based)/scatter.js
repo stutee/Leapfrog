@@ -25,7 +25,7 @@ class ScatterBall {
 		scatterBox.appendChild(this.scatterBall);
 
 		this.scatterBall.addEventListener("click", () => {
-			this.scatterBox.removeChild(ScatterBall);
+			scatterBox.removeChild(this.scatterBall);
 		});
 	}
 }
