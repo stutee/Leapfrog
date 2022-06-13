@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #fae3da;
+}
+
+h1 {
+	text-align: center;
+	color: #6a0c8a;
+}
+.carousel-container {
+	width: 800px;
+	height: 500px;
+	border-radius: 15px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+img {
+	object-fit: cover;
+	width: 800px;
+	height: 500px;
+}
+
+.carousel-image-wrapper {
+	position: absolute;
+	display: flex;
+}
+
+.radio-btn {
+	position: absolute;
+	z-index: 3;
+	padding-bottom: 16px;
+	display: flex;
+	justify-content: center;
+	bottom: 0px;
+	width: 100%;
+}
+
+.radio-btn .dot {
+	width: 30px;
+	height: 30px;
+	background-color: #6a0c8a;
+	background: black;
+	border-radius: 50%;
+	margin: 0 8px;
+}
+.dot:hover {
+	cursor: pointer;
+	background: gray;
+}
+.arrow {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.left-arrow,
+.right-arrow {
+	position: absolute;
+	padding: 16px;
+	font-size: 100px;
+	color: white;
+	margin-top: 180px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.left-arrow {
+	left: 0;
+}
+.right-arrow {
+	right: 0;
+}
