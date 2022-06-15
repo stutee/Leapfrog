@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.boxContainer {
+	width: 800px;
+	height: 600px;
+	background: url(./image/road.png);
+	animation: animatedBackground 100s linear;
+	position: relative;
+	overflow: hidden;
+}
+
+@keyframes animatedBackground {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 0 40000px;
+	}
+}
+
+.menu {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(231, 213, 213);
+	z-index: 3;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.score {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+#gameOver {
+	display: none;
+}
+
+#play {
+	padding: 8px;
+	width: 100px;
+	height: 100px;
+}
+
+#play:hover {
+	background-color: bisque;
+}
+
+h1 {
+	color: blueviolet;
+}
+
+h2 {
+	color: brown;
+}
